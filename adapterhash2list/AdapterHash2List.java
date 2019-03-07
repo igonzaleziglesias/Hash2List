@@ -34,13 +34,13 @@ public class AdapterHash2List {
 //        
 //        MostrarClassList mostrar = new MostrarClassList();
 //        mostrar.Mostrar(prueba2);
-        ClassHash miHash = new ClassHash();
+        ClassHash miHash = new ClassHash();//creamos un map y damos valores
         miHash.putValue(10, "uno");
         miHash.putValue(11, "dos");
         miHash.putValue(12, "tres");
 
-        Hash2List miHash2List = new Hash2List(miHash);
-        MostrarClassList.Mostrar(miHash2List);
+        Hash2List miHash2List = new Hash2List(miHash);//convertimos el map a lista
+        MostrarClassList.Mostrar(miHash2List);//mostramos con el metodo de lista
     }
 
 }

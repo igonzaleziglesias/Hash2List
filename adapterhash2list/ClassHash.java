@@ -11,7 +11,7 @@ import java.util.HashMap;
  *
  * @author Usuario
  */
-public class ClassHash implements InterfaceHash {
+public class ClassHash implements InterfaceHash {//definimos los metodos del map, implementando la interfaz map
 
     public HashMap<Integer, String> map = new HashMap<Integer, String>();
 

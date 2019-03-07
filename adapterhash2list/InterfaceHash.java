@@ -9,7 +9,7 @@ package adapterhash2list;
  *
  * @author Usuario
  */
-public interface InterfaceHash {
+public interface InterfaceHash {//Indicamos los metodos del map
 
     public abstract void putValue(int indice, String dato);
 

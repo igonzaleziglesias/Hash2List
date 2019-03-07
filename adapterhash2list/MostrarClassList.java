@@ -11,7 +11,7 @@ package adapterhash2list;
  */
 public class MostrarClassList {
 
-    public static void Mostrar(ClassList list) {
+    public static void Mostrar(ClassList list) {//definimos el metodo para mostrar la lista, que vamos a querer usar con el map
 
         System.out.println("indice elemento");
         for (int i = 0; i <= list.lista.size() - 1; i++) {

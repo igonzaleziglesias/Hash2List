@@ -14,7 +14,7 @@ import java.util.Iterator;
  */
 public class Hash2List extends ClassList {
 
-    public Hash2List(ClassHash mapHash) {
+    public Hash2List(ClassHash mapHash) {//pasamos los valores del map a una lista
 //        Iterator it = mapHash.mapHash.keySet().iterator();
 //        while (it.hasNext()) {
 //            lista.add(mapHash.mapHash.get(it.next()));

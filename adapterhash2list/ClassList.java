@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Usuario
  */
-public class ClassList implements InterfaceList {
+public class ClassList implements InterfaceList {//definimos los metodos de la clase lista implementando la interfaz
 
     public ArrayList<String> lista = new ArrayList<String>();
 

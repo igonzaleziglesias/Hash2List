@@ -9,7 +9,7 @@ package adapterhash2list;
  *
  * @author Usuario
  */
-public interface InterfaceList {
+public interface InterfaceList {//Indicamos los metodos de la lista
 
     public abstract void putElement(String e);
 
